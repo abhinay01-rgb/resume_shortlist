@@ -12,7 +12,7 @@ from langchain.document_loaders import UnstructuredURLLoader
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 
-openai_api_key = "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"
+openai_api_key = API_KEY
 llm = OpenAI(openai_api_key=openai_api_key)
 
 def save_faiss_index(index, file_path):
